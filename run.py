@@ -150,7 +150,7 @@ def main() -> None:
         pace_census=pace_census, contrasts=contrasts, pairs=pairs,
         trust=trust, shares=shares, split=split, effects=found["effects"],
         pace_error=fitted["pace error"], seasons=SEASONS, figures=figures,
-        out_path=OUT / "report.html")
+        out_path=OUT / "report.pdf")
 
     say()
     say(f"report  {path}")
